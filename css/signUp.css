@@ -1,0 +1,109 @@
+:root{
+    --lavander-color:#574DBF;
+    --green-color:#59CA46;
+    --ofwhite-color:#C4C4C4;
+    --yellow-color:#ffc400;
+    --section-color:#E0E0E0E0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    /* height: 1000px; */
+}
+
+
+/* start navbar */
+
+.navbar{
+    background-color: var(--lavander-color);
+
+}
+.navbar .nav-item .nav-link {
+    color: white;
+}
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:focus,
+.navbar .nav-item .nav-link:hover{
+
+    color: var(--green-color);
+}
+.navbar .search{
+    color: var(--green-color);
+    border-left: 1px solid var(--green-color);
+
+
+}
+.navbar .navbar-toggler{
+    color: white;
+    border-color:white ;
+
+    font-size: 25px;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.main-btn{
+    background-color: var(--green-color);
+    color: white;
+}
+.main-btn:hover{
+    background-color: var(--green-color);
+    color: white;
+
+}
+.main-btn:active{
+    background-color:var(--green-color);
+    color: white;
+}
+.sign-btn{
+    background-color: var(--section-color);
+}
+.sign-btn:hover{
+    background-color: var(--section-color);
+
+}
+/* end navbar */
+
+
+
+
+.form-content{
+    background-color: var(--lavander-color);
+    min-height:100vh;
+}
+
+.form-title{
+    color: white;
+
+
+}
+.form-title::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form-icon{
+    color: var(--green-color);
+    font-size: 6rem;
+}
+
+.form-container{
+    background-color: var(--section-color);
+}
+
+.card-body h5{
+    color: var(--lavander-color);
+}
+
+
+#contact{
+    border-top: solid 10px var(--green-color);
+}
+
